@@ -164,6 +164,7 @@ section{
 .texto-nosotros p{
     width: 60%;
     justify-self: center;
+    text-align: center;
 }
 
 /* Estilo pagina juegos */
@@ -192,5 +193,6 @@ section{
 
 .card p{
     margin-top: 12px;
+    text-align: center;
 }
 
