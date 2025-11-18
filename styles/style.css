@@ -198,4 +198,30 @@ section{
 
 
 /* Estilo pagina horarios */
+.lunes-jueves{
+    margin-top: 50px;
+    padding: 5% 0%;
+    background-image: linear-gradient(#0000003a, #0000003a), url(../assets/juego-2.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.viernes-sabado{
+    margin-top: 50px;
+    padding: 5% 0%;
+    background-image: linear-gradient(#0000003a, #0000003a), url(../assets/modern-air-hockey-tables-inside-a-neon-lit-shoppin-2024-12-14-04-23-09-utc_resultado.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.domingos-feriados{
+    margin: 50px 0px;
+    padding: 5% 0%;
+    background-image: linear-gradient(#0000003a, #0000003a), url(../assets/close-up-of-the-hands-of-the-person-playing-a-vide-2025-03-09-02-52-24-utc_resultado.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
