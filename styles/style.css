@@ -50,7 +50,7 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     padding: 16px;
-    background-color: rgb(67, 23, 109);
+    background-color: #43176d;
 }
 .footer-nav {
     display: flex;
@@ -88,36 +88,80 @@ h1{
     font-size: 32px;
 }
 
+h2{
+    color: white;
+    font-size: 28px;
+}
+
+
 p{
     color: white;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 section{
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-content: center;
+    justify-items: center;
     justify-content: center;
     gap: 16px;
 }
 
 /* Modificación del index */
-.principal{
+.principal-home{
     margin-bottom: 150px;
     padding: 22% 0%;
-    background-image: url(../assets/modern-air-hockey-tables-inside-a-neon-lit-shoppin-2024-12-14-04-23-09-utc.jpg);
+    background-image: url(../assets/modern-air-hockey-tables-inside-a-neon-lit-shoppin-2024-12-14-04-23-09-utc_resultado.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.info{
+.texto-home{
     flex-direction: row;
     margin-bottom: 80px;
 }
-.info img{
+.texto-home img{
     width: 30%;
 }
-.info p {
+.texto-home p {
     width: 600px;
+}
+
+
+/* Estilo página nosotros */
+.principal-nosotros{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #43176d;
+    gap: 40px;
+}
+
+.principal-nosotros img{
+    width: 50%;
+}
+
+.presentacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.texto-nosotros{
+    padding: 20% 0px;
+    background-image: linear-gradient(#0000002f, #0000002f), url(../assets/two-friends-playing-air-hockey-in-bowling-alley-ar-2025-07-09-09-07-38-utc_resultado.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.texto-nosotros p{
+    width: 60%;
+    justify-self: center;
 }
