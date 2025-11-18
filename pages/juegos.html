@@ -4,33 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS -->
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="../styles/style.css">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <!-- LOGO -->
-        <img src="https://placehold.co/240x72" alt="">
-
-        <nav>
+        <nav class="header-nav">
+            <img class="logo" src="../assets/logo.png" alt="">
             <ul>
-                <li class="li-nav">
+                <li>
                     <a class="a-nav" href="../index.html">Home</a>
                 </li>
 
-                <li class="li-nav">
+                <li>
                     <a class="a-nav" href="./nosotros.html">Nosotros</a>
                 </li>
 
-                <li class="li-nav">
+                <li>
                     <a class="a-nav" href="#">Juegos</a>
                 </li>
 
-                <li class="li-nav">
+                <li>
                     <a class="a-nav" href="./pages/horarios.html">Horarios</a>
                 </li>
 
-                <li class="li-nav">
+                <li>
                     <a class="a-nav" href="./pages/contacto.html">Contacto</a>
                 </li>
             </ul>
@@ -38,29 +36,42 @@
     </header>
 
     <main>
-        <img src="https://placehold.co/300x300" alt="">
-        <img src="https://placehold.co/300x300" alt="">
-        <img src="https://placehold.co/300x300" alt="">
-        <img src="https://placehold.co/300x300" alt="">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe rem veritatis velit, quibusdam culpa sunt ipsam, excepturi qui assumenda optio itaque totam eaque incidunt, eligendi consectetur maiores adipisci facilis harum.</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi ipsa non ipsam aliquid modi doloribus, officia quos inventore veritatis quisquam sint aperiam explicabo corrupti qui deserunt rerum adipisci sunt nostrum?</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi ipsa non ipsam aliquid modi doloribus, officia quos inventore veritatis quisquam sint aperiam explicabo corrupti qui deserunt rerum adipisci sunt nostrum?</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi ipsa non ipsam aliquid modi doloribus, officia quos inventore veritatis quisquam sint aperiam explicabo corrupti qui deserunt rerum adipisci sunt nostrum?</p>
+        <section class="card-container">
+            <div class="card">
+                <img src="../assets/juego-1.webp" alt="">
+                <p>Donde todo comenzó. Vuelve a sentir la magia de los juegos que definieron generaciones. Pon a prueba tu habilidad en los originales, donde un solo crédito lo era todo. ¡El high score te está esperando!</p>
+            </div>
+
+            <div class="card">
+                <img src="../assets/juego-2.webp" alt="">
+                <p>Aquí es donde se resuelven las amistades. Desafía a tus amigos en un clásico cara a cara. Menos botones, más acción física. ¡Que gane el mejor! Demuestra quién es el verdadero campeón del grupo.</p>
+            </div>
+
+            <div class="card">
+                <img src="../assets/juego-3.webp" alt="">
+                <p>¿Tienes coordinación? Demuéstralo en la pista de baile o afina tu puntería en nuestras cabinas de disparos. Estos juegos ponen a prueba tu cuerpo y tu mente. ¡El centro de atención del local!</p>
+            </div>
+
+            <div class="card">
+                <img src="../assets/juego-4.webp" alt="">
+                <p>¡Siente la velocidad! Siéntate al volante, pisa el acelerador y compite contra tus amigos en nuestras máquinas de carreras. O sumérgete en experiencias que te pondrán al límite. Solo apto para quienes buscan emociones fuertes.</p>
+            </div>  
+        </section>
     </main>
 
     <footer>
-        <nav>
+        <nav class="footer-nav">
             <ul>
                 <li class="li-nav">
-                    <a class="a-nav" href="../index.html">Home</a>
+                    <a class="a-nav" href="#">Home</a>
                 </li>
 
                 <li class="li-nav">
-                    <a class="a-nav" href="./nosotros.html">Nosotros</a>
+                    <a class="a-nav" href="./pages/nosotros.html">Nosotros</a>
                 </li>
 
                 <li class="li-nav">
-                    <a class="a-nav" href="#">Juegos</a>
+                    <a class="a-nav" href="./pages/juegos.html">Juegos</a>
                 </li>
 
                 <li class="li-nav">
@@ -72,11 +83,15 @@
                 </li>
             </ul>
         </nav>
-
-        <img src="https://placehold.co/240x72" alt="">
-        <img src="https://placehold.co/38x36" alt="">
-        <img src="https://placehold.co/38x36" alt="">
-        <img src="https://placehold.co/38x36" alt="">
+        <section class="logo-redes">
+            <img img class="logo" src="../assets/logo.png" alt="">
+            <section class="redes-footer">
+                <img src="https://placehold.co/38x36" alt="">
+                <img src="https://placehold.co/38x36" alt="">
+                <img src="https://placehold.co/38x36" alt="">
+            </section>
+        </section>
     </footer>
+
 </body>
 </html>
