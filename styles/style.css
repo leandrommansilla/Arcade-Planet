@@ -83,6 +83,10 @@ footer{
     gap: 10px;
 }
 
+.redes-logo{
+    width: 25px;
+}
+
 h1{
     color: white;
     font-size: 32px;
