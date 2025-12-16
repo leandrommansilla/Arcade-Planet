@@ -201,6 +201,19 @@ p {
   text-align: center;
 }
 
+.h2-juegos {
+  justify-self: center;
+}
+
+.galeria-item {
+  overflow: hidden;
+  border: 2px #bd00ff;
+  border-radius: 10px;
+}
+.galeria-item:hover {
+  transform: scale(1.1);
+}
+
 .lunes-jueves {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2274509804), rgba(0, 0, 0, 0.2274509804)), url(../assets/juego-2.webp);
 }
