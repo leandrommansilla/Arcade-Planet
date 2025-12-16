@@ -2,7 +2,6 @@
 @use "../utilities/extend";
 
 .principal-home{
-    padding: 22% 0%;
     background-image: url(../assets/foto-1.webp);
     @extend %background;
 }

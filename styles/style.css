@@ -76,7 +76,6 @@ footer .a-nav {
 }
 
 body {
-  padding: 0px 12px;
   font-family: "Nunito", sans-serif;
   background-color: black;
 }
@@ -111,13 +110,24 @@ p {
 }
 
 .texto-nosotros, .principal-home {
+  padding: 22% 0px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
+.card-container {
+  margin: 32px 0;
+  padding: 80px 0px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  gap: 100px;
+  flex-wrap: wrap;
+  background-color: #5b258d;
+}
+
 .principal-home {
-  padding: 22% 0%;
   background-image: url(../assets/foto-1.webp);
 }
 
@@ -154,12 +164,26 @@ p {
 }
 
 .texto-nosotros {
-  padding: 20% 0px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.2274509804), rgba(0, 0, 0, 0.2274509804)), url(../assets/foto-3.webp);
 }
 .texto-nosotros p {
   width: 60%;
   justify-self: center;
+  text-align: center;
+}
+
+.card {
+  width: 300px;
+  padding: 16px;
+  border: 1px solid white;
+  border-radius: 5px;
+  gap: 100px;
+}
+.card img {
+  width: 100%;
+}
+.card p {
+  margin-top: 12px;
   text-align: center;
 }
 

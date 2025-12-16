@@ -7,5 +7,6 @@
 @use "./partials/components/header";
 @use "./partials/components/footer";
 @use "./partials/components/general";
-@use "./partials/components/_index";
-@use "./partials/components/_nosotros";
+@use "./partials/components/index";
+@use "./partials/components/nosotros";
+@use "./partials/components/juegos";
