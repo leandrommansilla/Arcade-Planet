@@ -1,3 +1,5 @@
+@use "./variables";
+
 %background{
     background-size: cover;
     background-position: center;
@@ -18,5 +20,5 @@
     align-items: stretch;
     gap: 100px;
     flex-wrap: wrap;
-    background-color: #5b258d;
+    background-color: variables.$main-background-color;
 }

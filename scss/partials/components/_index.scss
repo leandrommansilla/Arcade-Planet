@@ -11,13 +11,13 @@
 .texto-home{
     flex-direction: row;
     padding: 70px 0px;
-    background-color: variables.$main-background-color;
+    background-color: #5b258d;
 
     img{
         width: 30%;
     }
 
     p{
-    width: 600px;
-}
+        width: 600px;
+    }
 }
