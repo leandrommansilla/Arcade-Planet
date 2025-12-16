@@ -1,15 +1,13 @@
 @use "../utilities/mixins";
 @use "../utilities/extend";
-@use "../utilities/variables";
 
 .principal-home{
-    @extend %section;
     padding: 22% 0%;
-    @include mixins.background("../assets/modern-air-hockey-tables-inside-a-neon-lit-shoppin-2024-12-14-04-23-09-utc_resultado.webp", cover, center, no-repeat)
+    background-image: url(../assets/foto-1.webp);
+    @extend %background;
 }
 
 .texto-home{
-    @extend %section;
     flex-direction: row;
     padding: 70px 0px;
     background-color: #5b258d;

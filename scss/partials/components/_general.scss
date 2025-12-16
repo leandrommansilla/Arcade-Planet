@@ -1,6 +1,22 @@
 
 @use "../utilities/variables";
 
+body{
+    padding: 0px 12px;
+    font-family: "Nunito", sans-serif;
+    background-color: black;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
 h1{
     color: variables.$main-text-color;
     font-size: variables.$h1-size;

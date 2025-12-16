@@ -1,0 +1,30 @@
+@use "../utilities/mixins";
+@use "../utilities/extend";
+
+.principal-nosotros{
+    @include mixins.flex(row, center, center);
+    background-color: #43176d;
+    gap: 40px;
+
+    img{
+        width: 50%;
+    }
+}
+
+
+.presentacion{
+    @include mixins.flex(column, center, center);
+    gap: 30px;
+}
+
+.texto-nosotros{
+    padding: 20% 0px;
+    background-image: linear-gradient(#0000003a, #0000003a), url(../assets/foto-3.webp);
+    @extend %background;
+
+    p{
+        width: 60%;
+        justify-self: center;
+        text-align: center;
+    }
+}

@@ -4,8 +4,8 @@
 
 
 //COMPONENTS
-@use "./partials/components/general";
-@use "./partials/components/body";
 @use "./partials/components/header";
 @use "./partials/components/footer";
-@use "./partials/components/index";
+@use "./partials/components/general";
+@use "./partials/components/_index";
+@use "./partials/components/_nosotros";
