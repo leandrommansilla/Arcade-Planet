@@ -1,0 +1,20 @@
+@use "../utilities/extend";
+
+.lunes-jueves{
+    background-image: linear-gradient(#0000003a, #0000003a), url(../assets/juego-2.webp);
+    @extend %background;
+    @extend %horarios-mp;
+}
+
+.viernes-sabado{
+    background-image: linear-gradient(#0000003a, #0000003a), url(../assets/foto-1.webp);
+    @extend %background;
+    @extend %horarios-mp;
+}
+
+.domingos-feriados{
+    background-image: linear-gradient(#0000003a, #0000003a), url(../assets/foto-4.webp);
+    @extend %background;
+    @extend %horarios-mp;
+    margin-bottom: 50px;
+}

@@ -109,11 +109,15 @@ p {
   font-size: 20px;
 }
 
-.texto-nosotros, .principal-home {
-  padding: 22% 0px;
+.lunes-jueves, .viernes-sabado, .domingos-feriados, .texto-nosotros, .principal-home {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.lunes-jueves, .viernes-sabado, .domingos-feriados {
+  margin-top: 50px;
+  padding: 7% 0%;
 }
 
 .card-container {
@@ -129,6 +133,7 @@ p {
 
 .principal-home {
   background-image: url(../assets/foto-1.webp);
+  padding: 22% 0%;
 }
 
 .texto-home {
@@ -165,6 +170,7 @@ p {
 
 .texto-nosotros {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2274509804), rgba(0, 0, 0, 0.2274509804)), url(../assets/foto-3.webp);
+  padding: 20% 0%;
 }
 .texto-nosotros p {
   width: 60%;
@@ -185,6 +191,19 @@ p {
 .card p {
   margin-top: 12px;
   text-align: center;
+}
+
+.lunes-jueves {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2274509804), rgba(0, 0, 0, 0.2274509804)), url(../assets/juego-2.webp);
+}
+
+.viernes-sabado {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2274509804), rgba(0, 0, 0, 0.2274509804)), url(../assets/foto-1.webp);
+}
+
+.domingos-feriados {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2274509804), rgba(0, 0, 0, 0.2274509804)), url(../assets/foto-4.webp);
+  margin-bottom: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
