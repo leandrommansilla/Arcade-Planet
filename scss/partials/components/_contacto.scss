@@ -1,4 +1,5 @@
 @use "../utilities/variables";
+@use "../utilities/extend";
 
 .main-contacto{
     background-color: variables.$main-background-color;
@@ -7,8 +8,7 @@
 .texto-contacto{
     padding: 50px 0px;
     width: 60%;
-    justify-self: center;
-    text-align: center;
+    @extend %centrar;
 }
 
 .mapa-info{

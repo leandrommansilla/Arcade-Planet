@@ -131,6 +131,11 @@ p {
   background-color: #5b258d;
 }
 
+.texto-contacto, .texto-nosotros p {
+  justify-self: center;
+  text-align: center;
+}
+
 .principal-home {
   background-image: url(../assets/foto-1.webp);
   padding: 22% 0%;
@@ -174,8 +179,6 @@ p {
 }
 .texto-nosotros p {
   width: 60%;
-  justify-self: center;
-  text-align: center;
 }
 
 .card {
@@ -213,8 +216,6 @@ p {
 .texto-contacto {
   padding: 50px 0px;
   width: 60%;
-  justify-self: center;
-  text-align: center;
 }
 
 .mapa-info {

@@ -24,7 +24,6 @@
 
     p{
         width: 60%;
-        justify-self: center;
-        text-align: center;
+        @extend %centrar;
     }
 }
