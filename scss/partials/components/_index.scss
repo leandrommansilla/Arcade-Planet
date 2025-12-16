@@ -1,5 +1,6 @@
 @use "../utilities/mixins";
 @use "../utilities/extend";
+@use "../utilities/variables";
 
 .principal-home{
     background-image: url(../assets/foto-1.webp);
@@ -10,7 +11,7 @@
 .texto-home{
     flex-direction: row;
     padding: 70px 0px;
-    background-color: #5b258d;
+    background-color: variables.$main-background-color;
 
     img{
         width: 30%;
