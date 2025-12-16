@@ -31,6 +31,10 @@
   color: white;
   font-size: 24px;
 }
+.header-nav ul .a-nav:hover {
+  color: rgba(255, 255, 255, 0.842);
+  text-decoration: underline;
+}
 
 footer {
   display: flex;
