@@ -18,3 +18,17 @@
     @extend %horarios-mp;
     margin-bottom: 50px;
 }
+
+@media (max-width: 992px){
+    .lunes-jueves{
+        padding: 30% 0%;
+    }
+
+    .viernes-sabado{
+        padding: 30% 0%;
+    }
+
+    .domingos-feriados{
+        padding: 30% 0%;
+    }
+}

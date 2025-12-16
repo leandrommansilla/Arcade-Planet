@@ -158,6 +158,23 @@ p {
   width: 600px;
 }
 
+@media (max-width: 992px) {
+  .texto-home {
+    flex-direction: column;
+  }
+  .texto-home img {
+    width: 80%;
+    max-width: 400px;
+  }
+  .texto-home p {
+    width: 80%;
+    text-align: center;
+    font-size: 18px;
+  }
+  .tablet {
+    flex-direction: column-reverse;
+  }
+}
 .principal-nosotros {
   display: flex;
   flex-direction: row;
@@ -186,6 +203,17 @@ p {
   width: 60%;
 }
 
+@media (max-width: 992px) {
+  .principal-nosotros {
+    flex-direction: column;
+  }
+  img {
+    width: 100%;
+  }
+  p {
+    width: 80%;
+  }
+}
 .tarjeta-juego {
   width: 300px;
   padding: 16px;
@@ -227,6 +255,17 @@ p {
   margin-bottom: 50px;
 }
 
+@media (max-width: 992px) {
+  .lunes-jueves {
+    padding: 30% 0%;
+  }
+  .viernes-sabado {
+    padding: 30% 0%;
+  }
+  .domingos-feriados {
+    padding: 30% 0%;
+  }
+}
 .main-contacto {
   background-color: #5b258d;
 }
@@ -238,6 +277,7 @@ p {
 
 .mapa-info {
   padding-bottom: 50px;
+  width: 70%;
 }
 
 /*# sourceMappingURL=style.css.map */

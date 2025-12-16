@@ -27,3 +27,16 @@
         @extend %centrar;
     }
 }
+
+@media (max-width: 992px){
+    .principal-nosotros{
+        flex-direction: column;
+    }
+
+    img{
+        width: 100%;
+    }
+    p{
+        width: 80%;
+    }
+}
