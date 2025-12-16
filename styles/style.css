@@ -136,7 +136,7 @@ p {
   background-color: #5b258d;
 }
 
-.texto-contacto, .texto-nosotros p {
+.texto-contacto, .mapa-info, .texto-nosotros p {
   justify-self: center;
   text-align: center;
 }
