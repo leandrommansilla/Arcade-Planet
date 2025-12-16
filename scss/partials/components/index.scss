@@ -1,0 +1,26 @@
+@use "../components/general";
+@use "../utilities/mixins";
+@use "../utilities/variables";
+@use "../utilities/extend";
+
+.principal-home{
+    @extend %section;
+    padding: 22% 0%;
+    @include mixins.background("../assets/modern-air-hockey-tables-inside-a-neon-lit-shoppin-2024-12-14-04-23-09-utc_resultado.webp", cover, center, no-repeat)
+}
+
+.texto-home{
+    @extend %section;
+    flex-direction: row;
+    padding: 70px 0px;
+    background-color: #5b258d;
+
+    img{
+        width: 30%;
+    }
+
+    p{
+    width: 600px;
+    color: variables.$main-text-color;
+}
+}

@@ -1,249 +1,131 @@
 /*Fuente nunito*/
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
-/* Estilo general para toda la web */
-body{
-    padding: 0px 12px;
-    font-family: "Nunito", sans-serif;
-    background-color: black;
+body {
+  padding: 0px 12px;
+  font-family: "Nunito", sans-serif;
+  background-color: black;
 }
-
-/* Estilo del header */
 
 .logo {
-    width: 100px;
+  width: 100px;
 }
+
 .header-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: blueviolet;
-    padding: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: blueviolet;
+  padding: 16px;
 }
-
 .header-nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+.header-nav ul li {
+  list-style-type: none;
+}
+.header-nav ul .a-nav {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
 }
 
-nav ul li {
-    list-style-type: none;
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: #43176d;
+}
+footer .footer-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px;
+}
+footer .footer-nav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 32px;
+}
+footer .logo-redes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+footer .redes-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+footer .redes-logo {
+  width: 25px;
+}
+footer .a-nav {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
 }
 
-.a-nav {
-    text-decoration: none;
-    color: white;
-    font-size: 24px;
+h1 {
+  color: white font-size 32px;
 }
 
-/* Estilo del footer */
-footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 16px;
-    background-color: #43176d;
-}
-.footer-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 16px;
+h2 {
+  color: white font-size 28px;
 }
 
-.footer-nav ul{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start ;
-    gap: 32px;
+h4 {
+  color: white;
 }
 
-.logo-redes{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
+p {
+  color: white font-size 20px;
 }
 
-.redes-footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+.principal-home, .texto-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+  gap: 16px;
 }
 
-.redes-logo{
-    width: 25px;
+.principal-home {
+  padding: 22% 0%;
+  background-image: url("../assets/modern-air-hockey-tables-inside-a-neon-lit-shoppin-2024-12-14-04-23-09-utc_resultado.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-h1{
-    color: white;
-    font-size: 32px;
+.texto-home {
+  flex-direction: row;
+  padding: 70px 0px;
+  background-color: #5b258d;
 }
-
-h2{
-    color: white;
-    font-size: 28px;
-}
-
-h4{
-    color: white;
-}
-
-p{
-    color: white;
-    font-size: 20px;
-}
-
-section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-    justify-items: center;
-    justify-content: center;
-    gap: 16px;
-}
-
-/* Modificación del index */
-.principal-home{
-    padding: 22% 0%;
-    background-image: url(../assets/modern-air-hockey-tables-inside-a-neon-lit-shoppin-2024-12-14-04-23-09-utc_resultado.webp);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.texto-home{
-    flex-direction: row;
-    padding: 70px 0px;
-    background-color: #5b258d;
-}
-.texto-home img{
-    width: 30%;
+.texto-home img {
+  width: 30%;
 }
 .texto-home p {
-    width: 600px;
+  width: 600px;
+  color: white;
 }
 
-
-/* Estilo página nosotros */
-.principal-nosotros{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: #43176d;
-    gap: 40px;
-}
-
-.principal-nosotros img{
-    width: 50%;
-}
-
-.presentacion{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-}
-
-.texto-nosotros{
-    padding: 20% 0px;
-    background-image: linear-gradient(#0000003a, #0000003a), url(../assets/two-friends-playing-air-hockey-in-bowling-alley-ar-2025-07-09-09-07-38-utc_resultado.webp);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.texto-nosotros p{
-    width: 60%;
-    justify-self: center;
-    text-align: center;
-}
-
-/* Estilo pagina juegos */
-.card-container {
-    margin: 32px 0;
-    padding: 80px 0px;
-    flex-direction: row;
-    justify-content: center;
-    align-items: stretch;
-    gap: 100px;
-    flex-wrap: wrap;
-    background-color: #5b258d;
-}
-
-.card {
-    width: 300px;
-    padding: 16px;
-    border: 1px solid white;
-    border-radius: 5px;
-    gap: 100px;
-}
-
-.card img{
-    width: 100%;
-}
-
-.card p{
-    margin-top: 12px;
-    text-align: center;
-}
-
-
-/* Estilo pagina horarios */
-.lunes-jueves{
-    margin-top: 50px;
-    padding: 5% 0%;
-    background-image: linear-gradient(#0000003a, #0000003a), url(../assets/juego-2.webp);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.viernes-sabado{
-    margin-top: 50px;
-    padding: 5% 0%;
-    background-image: linear-gradient(#0000003a, #0000003a), url(../assets/modern-air-hockey-tables-inside-a-neon-lit-shoppin-2024-12-14-04-23-09-utc_resultado.webp);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.domingos-feriados{
-    margin: 50px 0px;
-    padding: 5% 0%;
-    background-image: linear-gradient(#0000003a, #0000003a), url(../assets/close-up-of-the-hands-of-the-person-playing-a-vide-2025-03-09-02-52-24-utc_resultado.webp);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-/* Estilo pagina contacto */
-
-.main-contacto{
-    background-color: #5b258d;
-}
-.texto-contacto{
-    padding: 50px 0px;
-    width: 60%;
-    justify-self: center;
-    text-align: center;
-}
-
-.mapa-info{
-    padding-bottom: 50px;
-}
+/*# sourceMappingURL=style.css.map */

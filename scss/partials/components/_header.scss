@@ -1,0 +1,26 @@
+@use "../utilities/mixins";
+
+.logo {
+    width: 100px;
+}
+
+.header-nav {
+    @include mixins.flex(row, space-between, null);
+    background-color: blueviolet;
+    padding: 16px;
+
+    ul{
+        @include mixins.flex(row, space-between, center);
+        gap: 32px;
+
+        li{
+            list-style-type: none;
+        }
+
+        .a-nav {
+            text-decoration: none;
+            color: white;
+            font-size: 24px;
+        }
+    }
+}

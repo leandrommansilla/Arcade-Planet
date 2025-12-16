@@ -1,0 +1,21 @@
+
+@use "../utilities/variables";
+
+h1{
+    color: variables.$main-text-color
+    font-size variables.$h1-size
+}
+
+h2{
+    color: variables.$main-text-color
+    font-size variables.$h2-size
+}
+
+h4{
+    color: variables.$main-text-color
+}
+
+p{
+    color: variables.$main-text-color
+    font-size variables.$p-size
+}
