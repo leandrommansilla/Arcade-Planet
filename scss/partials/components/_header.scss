@@ -4,20 +4,19 @@
     width: 100px;
 }
 
-.header-nav {
-    @include mixins.flex(row, space-between, null);
+.bg-nav-propio{
     background-color: blueviolet;
+}
+.navbar {
     padding: 16px;
 
-    ul{
-        @include mixins.flex(row, space-between, center);
+    .navbar-nav{
         gap: 32px;
 
-        li{
+        .nav-item{
             list-style-type: none;
         }
-
-        .a-nav {
+        .nav-link {
             text-decoration: none;
             color: white;
             font-size: 24px;
@@ -27,5 +26,11 @@
                 text-decoration: underline;
             }
         }
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-collapse {
+        justify-content: flex-end; 
     }
 }

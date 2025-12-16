@@ -9,33 +9,34 @@
   width: 100px;
 }
 
-.header-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+.bg-nav-propio {
   background-color: blueviolet;
+}
+
+.navbar {
   padding: 16px;
 }
-.header-nav ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+.navbar .navbar-nav {
   gap: 32px;
 }
-.header-nav ul li {
+.navbar .navbar-nav .nav-item {
   list-style-type: none;
 }
-.header-nav ul .a-nav {
+.navbar .navbar-nav .nav-link {
   text-decoration: none;
   color: white;
   font-size: 24px;
 }
-.header-nav ul .a-nav:hover {
+.navbar .navbar-nav .nav-link:hover {
   color: rgba(255, 255, 255, 0.842);
   text-decoration: underline;
 }
 
+@media (min-width: 992px) {
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+}
 footer {
   display: flex;
   flex-direction: row;
@@ -185,17 +186,17 @@ p {
   width: 60%;
 }
 
-.card {
+.tarjeta-juego {
   width: 300px;
   padding: 16px;
   border: 1px solid white;
   border-radius: 5px;
   gap: 100px;
 }
-.card img {
+.tarjeta-juego img {
   width: 100%;
 }
-.card p {
+.tarjeta-juego p {
   margin-top: 12px;
   text-align: center;
 }
