@@ -1,7 +1,6 @@
-@use "../components/general";
 @use "../utilities/mixins";
-@use "../utilities/variables";
 @use "../utilities/extend";
+@use "../utilities/variables";
 
 .principal-home{
     @extend %section;
@@ -21,6 +20,5 @@
 
     p{
     width: 600px;
-    color: variables.$main-text-color;
 }
 }

@@ -5,6 +5,25 @@
   padding: 0px;
 }
 
+h1 {
+  color: white;
+  font-size: 32px;
+}
+
+h2 {
+  color: white;
+  font-size: 28px;
+}
+
+h4 {
+  color: white;
+}
+
+p {
+  color: white;
+  font-size: 20px;
+}
+
 body {
   padding: 0px 12px;
   font-family: "Nunito", sans-serif;
@@ -81,22 +100,6 @@ footer .a-nav {
   font-size: 16px;
 }
 
-h1 {
-  color: white font-size 32px;
-}
-
-h2 {
-  color: white font-size 28px;
-}
-
-h4 {
-  color: white;
-}
-
-p {
-  color: white font-size 20px;
-}
-
 .principal-home, .texto-home {
   display: flex;
   flex-direction: column;
@@ -125,7 +128,6 @@ p {
 }
 .texto-home p {
   width: 600px;
-  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
